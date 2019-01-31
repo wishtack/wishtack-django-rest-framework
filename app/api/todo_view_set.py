@@ -18,10 +18,8 @@ class TodoViewSet(ViewSet):
     def __init__(self, *args, **kwargs):
         self._todo_repository = TodoRepository()
 
-    def list(self, *args):
+    def list(self, request):
         """:returns: List of todos."""
-
-        print(args)
 
         data = self._todo_repository.get_todo_list()
 
