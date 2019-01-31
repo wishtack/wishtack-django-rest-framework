@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b6eeca9b0986070cca014c9cc60110c1f7b63d9058b612f9b36687036269f6dc"
+            "sha256": "109e285e4623130c2592ee0c4060bc1d508cc01506e07f51b3e5d78c7c2e88a2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -101,6 +101,13 @@
             ],
             "index": "pypi",
             "version": "==3.0.1"
+        },
+        "newrelic": {
+            "hashes": [
+                "sha256:8fdc94350bfe69e4f70dc8a3e7ead6c6a1905e8f161ce24de7ee3de4f69196ad"
+            ],
+            "index": "pypi",
+            "version": "==4.12.0.113"
         },
         "pytz": {
             "hashes": [

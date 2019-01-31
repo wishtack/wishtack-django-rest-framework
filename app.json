@@ -1,0 +1,11 @@
+{
+    "name": "Django ReST Framework",
+    "description": "Django ReST Framework",
+    "repository": "https://github.com/wishtack/wishtack-django-rest-framework",
+    "logo": "https://www.django-rest-framework.org/img/logo.png",
+    "keywords": ["Django", "Python", "Django ReST Framework"],
+    "addons": [
+        "mongolab:sandbox",
+        "newrelic:wayne"
+    ]
+}

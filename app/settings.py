@@ -109,4 +109,15 @@ STATIC_URL = '/static/'
 
 APPEND_SLASH = False
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
+}
+
 X_FRAME_OPTIONS = 'DENY'
+

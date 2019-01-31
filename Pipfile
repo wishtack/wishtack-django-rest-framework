@@ -8,9 +8,10 @@ name = "pypi"
 [packages]
 django = "~=2.1"
 djangorestframework = "~=3.9.0"
-markdown = "~=3.0.0"
-gunicorn = "~=19.9.0"
 gevent = "~=1.4.0"
+gunicorn = "~=19.9.0"
+markdown = "~=3.0.0"
+newrelic = "*"
 
 [requires]
 python_version = "3.7"
